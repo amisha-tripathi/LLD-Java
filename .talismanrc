@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: LowLevelDesigns/mvnw
+  checksum: 6853a997c9b76fb790e60f7b0f8d5c0d8ab78b5c29d049cd95b2495d58cb87b5
+version: ""
