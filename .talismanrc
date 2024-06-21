@@ -2,3 +2,9 @@ fileignoreconfig:
 - filename: LowLevelDesigns/mvnw
   checksum: 6853a997c9b76fb790e60f7b0f8d5c0d8ab78b5c29d049cd95b2495d58cb87b5
 version: ""
+fileignoreconfig:
+- filename: .idea/sonarlint/issuestore/index.pb
+  checksum: 2fc29494a7729a91dda1435492d4a221b9013048c3ea3993417349541bcd2f19
+- filename: .idea/sonarlint/securityhotspotstore/index.pb
+  checksum: 61ad3e263def3ef9a7b2c3a2e43189fefd4b40b15896a587fbafe1956e684f68
+version: ""
