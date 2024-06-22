@@ -1,5 +1,10 @@
 package LLD.Java.LowLevelDesigns;
 
+import LLD.Java.LowLevelDesigns.DecoratorPattern.BasePizza;
+import LLD.Java.LowLevelDesigns.DecoratorPattern.ExtraCheese;
+import LLD.Java.LowLevelDesigns.DecoratorPattern.Farmhouse;
+import LLD.Java.LowLevelDesigns.DecoratorPattern.Margherita;
+import LLD.Java.LowLevelDesigns.DecoratorPattern.Mushroom;
 import LLD.Java.LowLevelDesigns.Observable.IphoneStock;
 import LLD.Java.LowLevelDesigns.Observable.Stock;
 import LLD.Java.LowLevelDesigns.Observer.EmailAlertObserver;
@@ -32,15 +37,31 @@ public class LowLevelDesignsApplication {
 
 		//observable pattern starts here
 
-		Stock iphones=new IphoneStock();
-
-		NotificationAlertObserver obj=new EmailAlertObserver(iphones);
-
-		iphones.addObserver(obj);
-		iphones.setData(10);
-		iphones.setData(100); //does not call 2 times because the stock is not 0.
+//		Stock iphones=new IphoneStock();
+//
+//		NotificationAlertObserver obj=new EmailAlertObserver(iphones);
+//
+//		iphones.addObserver(obj);
+//		iphones.setData(10);
+//		iphones.setData(100);
+		//does not call 2 times because the stock is not 0.
 
 		//observable pattern ends here.
+
+		//Factory Design Pattern starts here
+
+		//farmhouse+extracheese
+//		Farmhouse farmhouse=new Farmhouse();
+//		BasePizza extraCheese=new ExtraCheese(farmhouse);
+//		extraCheese.getName();
+//		extraCheese.cost();
+
+		//margherita+extracheese+mushroom
+
+//		BasePizza mushroompizza=new Mushroom(new ExtraCheese(new Margherita()));
+//		mushroompizza.cost();
+
+		//Factory Design Pattern ends here
 	}
 
 }
