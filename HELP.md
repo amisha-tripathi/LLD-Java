@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'LLD Java.LowLevelDesigns' is invalid and this project uses 'LLD.Java.LowLevelDesigns' instead.
+* The original package name 'LLD Java.LowLevelDesigns' is invalid and this project uses 'LLD.Java.LowLevelDesignsPatterns' instead.
 
 # Getting Started
 
