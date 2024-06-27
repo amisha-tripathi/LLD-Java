@@ -1,7 +1,5 @@
 package LowLevelDesignPractice.DesignTicTacToeGame.Model;
 
-import java.util.Arrays;
-
 public class Board {
   int size;
   Piece[][] board;

@@ -5,7 +5,6 @@ import LowLevelDesignPractice.DesignTicTacToeGame.Model.Piece;
 import LowLevelDesignPractice.DesignTicTacToeGame.Model.PieceType;
 import LowLevelDesignPractice.DesignTicTacToeGame.Model.Player;
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.Scanner;
 
@@ -50,7 +49,7 @@ public class TicTacToeGame {
     this.players=players;
     this.board=board;
   }
-  void playGame(){
+  public void playGame(){
     Scanner sc=new Scanner(System.in);
     while(!players.isEmpty()){
       Player player=players.poll();
