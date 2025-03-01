@@ -16,6 +16,10 @@ public class Main {
 		mushroompizza.cost();
 
     //Decorator Design Pattern ends here
+	  String s=new String("dsjvbksjfbkufhbksjdbvksfjfvbksjfbvksjbvkjfbvksjvbksjfvbsjvbskjrbvkjsfbvksjbvkajdhbvksdbvksdjbvjbvfkesjdvbsdhkjbvusjhvbksdjvbouabvouaeqhfouebckjdabcksdjbfuewgfhk");
+	  System.out.println("length"+s.length());
+
+
   }
 
 }
