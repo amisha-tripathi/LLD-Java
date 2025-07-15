@@ -1,27 +1,22 @@
 fileignoreconfig:
-- filename: LowLevelDesigns/mvnw
-  checksum: 6853a997c9b76fb790e60f7b0f8d5c0d8ab78b5c29d049cd95b2495d58cb87b5
-version: ""
-fileignoreconfig:
-- filename: .idea/sonarlint/issuestore/index.pb
-  checksum: 2fc29494a7729a91dda1435492d4a221b9013048c3ea3993417349541bcd2f19
+- filename: target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+  checksum: 77609e74e093849819527210c18a836afe295c7ebe8c527e177965fa3f293b79
+- filename: target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+  checksum: a11911724efeb0071720f22a2bd80450088b6ef5fa02d6f92bac45099d7f891b
 - filename: .idea/sonarlint/securityhotspotstore/index.pb
-  checksum: 61ad3e263def3ef9a7b2c3a2e43189fefd4b40b15896a587fbafe1956e684f68
-version: ""
-fileignoreconfig:
+  checksum: d959714f16e38524232ca6411607c4c6080ad44a7e7002085cac6055a5efb5a2
+- filename: .idea/sonarlint/issuestore/index.pb
+  checksum: e13401776de364ec7f5c89397583c5118bab11b354832dbd3753f8a59fc52c52
+- filename: src/main/java/ObjectOrientedDesignPractice/LibraryManagementSystem/Account.java
+  checksum: 2b2ee8b8a7e29449acf28b1d3baa57e2e3d7d8fd0b7b0c378f61cff86f06ce95
+- filename: src/main/java/ObjectOrientedDesignPractice/LibraryManagementSystem/Librarian.java
+  checksum: 668084df798835f19503ce0ebb08ca17c57497c012dd076c4950403bc81ae336
 - filename: .idea/uiDesigner.xml
   checksum: 146eeae797db9b77bb04bd43a344aea620f5f739914e4e1566b396f9912ee6f4
-version: "
-fileignoreconfig:
-- filename: .idea/uiDesigner.xml
-  checksum: 146eeae797db9b77bb04bd43a344aea620f5f739914e4e1566b396f9912ee6f4
-version: ""
-fileignoreconfig:
-- filename: .idea/uiDesigner.xml
-  checksum: 146eeae797db9b77bb04bd43a344aea620f5f739914e4e1566b396f9912ee6f4
-version: ""
-fileignoreconfig:
-- filename: .idea/uiDesigner.xml
-  checksum: 146eeae797db9b77bb04bd43a344aea620f5f739914e4e1566b396f9912ee6f4
-version: ""
-
+- filename: src/main/java/ObjectOrientedDesignPractice/LibraryManagementSystem/Member.java
+  checksum: ddbd2446b7d7e5f2f93f1f918939221d9bdeffa028f28c385488631f5ef49cc8
+- filename: src/main/java/ObjectOrientedDesignPractice/LibraryManagementSystem/LibrarySystem.java
+  checksum: 0adb9e10e32f299d14441f83ea472588c6c473bb518a8f0a36805d021d1e554f
+- filename: target/surefire-reports/TEST-LLD.Java.LowLevelDesignsPatterns.LowLevelDesignsApplicationTests.xml
+  checksum: 0182c77a0c8581766443666c2b2efbb3db29916a17fec0963300c0c91c7a69bb
+version: "1.0"

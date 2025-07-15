@@ -59,8 +59,6 @@ Jsrc/main/java/LowLevelDesignPractice/CarRentalSystem/VehicleModel/Car.java,3/6
 Rsrc/main/java/LowLevelDesignPractice/CarRentalSystem/VehicleModel/VehicleType.java,5/c/5c5a85a959fe920038436a7a71c8862dc8291c87
 o
 ?src/main/java/LowLevelDesignPractice/CarRentalSystem/Store.java,7/7/778eff142950fdbb41f41b1a3689d5931efca28e
-;
-.talismanrc,d/a/dafa7c51cd687d8d28f87f9caa7cd93cb89484de
 Š
 Zsrc/main/java/LowLevelDesignPractice/CarRentalSystem/VehicleInventoryManagementSystem.java,2/2/2207da927385c0da51f5bc7a77d550c613c8d946
 t
