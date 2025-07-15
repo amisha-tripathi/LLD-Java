@@ -1,0 +1,8 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹²à8Ëıñ˜ã2
+w
+java:S3008"URename this field "PIN_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÉŠùÿÿÿÿ8Ìıñ˜ã2
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»¥³úÿÿÿÿ8Ìıñ˜ã2
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(ñÇå¾ıÿÿÿÿ8ÕŞò˜ã2

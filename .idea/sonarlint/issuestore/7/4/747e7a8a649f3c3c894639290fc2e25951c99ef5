@@ -1,0 +1,17 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôõø¼þÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À±™š
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚¾åð
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¢‡ÿÏ
+J
+java:S1068
+"/Remove this unused "elevatorCar" private field.(¼‚„Ùùÿÿÿÿ
+I
+java:S1068".Remove this unused "upRequests" private field.(í–µ„üÿÿÿÿ
+F
+java:S1068"0Remove this unused "downRequests" private field.(ò×Ç­
+F
+java:S1068"0Remove this unused "idleRequests" private field.(—˜æ„

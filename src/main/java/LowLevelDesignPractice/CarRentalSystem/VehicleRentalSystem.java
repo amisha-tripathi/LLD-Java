@@ -3,14 +3,21 @@ package LowLevelDesignPractice.CarRentalSystem;
 import java.util.List;
 
 public class VehicleRentalSystem {
-  List<Location> locations;
-  VehicleRentalSystem(List<Location> locations){
-    this.locations=locations;
+  List<User> userList;
+  List<Store> storeList;
+
+  public VehicleRentalSystem(List<User> userList, List<Store> storeList) {
+    this.userList = userList;
+    this.storeList = storeList;
   }
 
-  void getLocations(){
-    for(Location location: locations)
-      System.out.println(location.getCity());
+  public Store getStoreList(Location location) {
+//    for(Store store: storeList){
+//      if(store.getLocation().equals(location)){
+//        return store;
+//      }
+//    }
+//    return null;
+    return storeList.get(0);
   }
-
 }

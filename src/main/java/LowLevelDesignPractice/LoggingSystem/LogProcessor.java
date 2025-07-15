@@ -7,7 +7,7 @@ public abstract class LogProcessor {
   public static int DEBUG=2;
   public static int ERROR=3;
 
-  LogProcessor next;
+  LogProcessor next; //the next chain of responsibility will be given to whom that we are putting into this next
 
   LogProcessor(LogProcessor next){
     this.next=next;

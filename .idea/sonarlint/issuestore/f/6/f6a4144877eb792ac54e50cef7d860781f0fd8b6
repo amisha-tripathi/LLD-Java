@@ -1,0 +1,8 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹²à8­¥Ìšã2
+ž
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Š¾¡…8¯¥Ìšã2
+
+java:S41440"]Update this method so that its implementation is not identical to "getAmtBalance" on line 19.(†‘¿Éÿÿÿÿÿ8°¥Ìšã2
+¶
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(¾Ã³Ì8³¥Ìšã2

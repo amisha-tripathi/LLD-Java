@@ -1,35 +1,37 @@
 package LowLevelDesignPractice.CarRentalSystem;
 
-import LowLevelDesignPractice.CarRentalSystem.VehicleModel.Vehicle;
 import java.util.List;
 
+import LowLevelDesignPractice.CarRentalSystem.VehicleModel.Vehicle;
+
 public class Store {
-  VehicleInventorySystem vehicleInventorySystem;
-  int storeId;
-  Location storeLocation;
+   VehicleInventoryManagementSystem vehicleInventoryManagementSystem;
+   Location location;
 
-  Bill bill;
+   List<Reservation> reservations;
 
-  public void setVehicles(List<Vehicle> list){
-    //check if without making obj of vehicleInventorySystem if we can do this.
-    VehicleInventorySystem vehicleInventorySystem=new VehicleInventorySystem();
-    vehicleInventorySystem.setVehicles(list);
-  }
+//   Store(Location location, List<Reservation> reservations){
+//      this.location=location;
+//      this.reservations=reservations;
+//   }
 
-  public List<Vehicle> getReservedVehicle(){
-    System.out.println(vehicleInventorySystem.reservedVehicle());
-    return vehicleInventorySystem.reservedVehicle();
-  }
+   public Reservation createReservation(User user, Vehicle vehicle, int StartTime){
+      Reservation reservation=new Reservation(user, vehicle, StartTime);
+      reservations.add(reservation);
+          return reservation;
+   }
 
-  public List<Vehicle> getNonReservedVehicle(){
-    System.out.println(vehicleInventorySystem.nonreservedVehicle());
-    return vehicleInventorySystem.nonreservedVehicle();
-  }
+   public void addVehicles(Vehicle vehicle){
+      vehicleInventoryManagementSystem.getVehicles().add(vehicle);
+   }
 
-  public void getBill(Vehicle vehicle){
-    bill=new Bill(vehicle);
-    bill.getBill();
-  }
+   public List<Vehicle> getVehicles(){
+      return vehicleInventoryManagementSystem.getVehicles();
+   }
+
+   public Location getLocation(){
+      return this.location;
+   }
 
 
 }

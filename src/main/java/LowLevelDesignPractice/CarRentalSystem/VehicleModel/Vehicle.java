@@ -1,7 +1,5 @@
 package LowLevelDesignPractice.CarRentalSystem.VehicleModel;
 
-import LowLevelDesignPractice.CarRentalSystem.Reservation;
-
 public class Vehicle {
   int vehicleId;
   int vehicleNumber;
@@ -9,16 +7,6 @@ public class Vehicle {
   VehicleType vehicleType;
   int average;
   int kmdriven;
-
-  public Reservation getReservation() {
-    return reservation;
-  }
-
-  public void setReservation(Reservation reservation) {
-    this.reservation = reservation;
-  }
-
-  Reservation reservation;
 
   public int getVehicleId() {
     return vehicleId;
@@ -60,14 +48,14 @@ public class Vehicle {
     this.kmdriven = kmdriven;
   }
 
-  public VehicleStatus getStatus() {
-    return status;
+  public int getHourlyCost() {
+    return hourlyCost;
   }
 
-  public void setStatus(VehicleStatus status) {
-    this.status = status;
+  public void setHourlyCost(int hourlyCost) {
+    this.hourlyCost = hourlyCost;
   }
 
-  VehicleStatus status=VehicleStatus.ACTIVE;
+  int hourlyCost;
 
 }

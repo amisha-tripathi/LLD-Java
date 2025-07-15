@@ -1,14 +1,15 @@
 package LowLevelDesignPractice.CarRentalSystem;
 
-import LowLevelDesignPractice.CarRentalSystem.VehicleModel.Vehicle;
 
 public class Bill {
-  Vehicle vehicle;
-  Bill(Vehicle vehicle){
-    this.vehicle=vehicle;
+ Reservation reservation;
+
+  public Bill(Reservation reservation) {
+    //based on startTime for that vehicle reservation we can total cost is evaluated.
+    this.reservation=reservation;
   }
-  int getBill(){
-    System.out.println("your bill is"+ 10000);
-    return 10000;
+
+  public double TotalCost(){
+    return 100.0;
   }
 }
